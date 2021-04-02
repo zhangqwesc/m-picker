@@ -1,6 +1,6 @@
 {
-  "name": "rmc-picker",
-  "version": "5.0.10",
+  "name": "zj-rmc-picker",
+  "version": "5.0.11",
   "description": "React Mobile Picker Component(web and react-native)",
   "keywords": [
     "react",
@@ -8,13 +8,13 @@
     "react-m-picker",
     "m-picker"
   ],
-  "homepage": "https://github.com/react-component/m-picker",
+  "homepage": "https://github.com/zhangqwesc/m-picker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-component/m-picker.git"
+    "url": "https://github.com/zhangqwesc/m-picker.git"
   },
   "bugs": {
-    "url": "https://github.com/react-component/m-picker/issues"
+    "url": "https://github.com/zhangqwesc/m-picker/issues"
   },
   "files": [
     "lib",
@@ -38,9 +38,6 @@
     "build": "rc-tools run build",
     "gh-pages": "rc-tools run gh-pages",
     "start": "rc-tools run server",
-    "prepublish": "rc-tools run guard",
-    "prepare": "rc-tools run guard",
-    "prepublishOnly": "rc-tools run guard",
     "pub": "rc-tools run pub --babel-runtime",
     "lint": "rc-tools run lint --no-js-lint",
     "test": "jest",
@@ -73,8 +70,8 @@
   "dependencies": {
     "babel-runtime": "6.x",
     "classnames": "^2.2.6",
-    "rmc-feedback": "^2.0.0",
-    "rmc-dialog": "^1.1.1"
+    "rmc-dialog": "^1.1.1",
+    "rmc-feedback": "^2.0.0"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.7",
@@ -88,9 +85,7 @@
     "pre-commit": "1.x",
     "rc-tools": "9.x",
     "react": "16.x",
-    "react-dom": "16.x",
-    "react-native": "~0.59.3",
-    "react-native-index-page": "~2.0.0"
+    "react-dom": "16.x"
   },
   "typings": "./lib/index.d.ts",
   "pre-commit": [
